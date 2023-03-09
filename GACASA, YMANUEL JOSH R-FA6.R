@@ -13,12 +13,12 @@ print(paste(round(var_x, 2)))
 print(paste(round(sd_x, 2)))
 
 par(mfrow = c(1,2),bg = "#FF12FF")
-plot(table(x)/length(x),
+plot(table(x)/length(x), main = "1000 distributions",
      xlab = "1000 Random Variables",
      ylab = "Relative Frequency",
      type = "h")
 
-hist(x, main = "1000 Random Variables ",
+hist(x, main = "1000 distributions",
      xlab = "Random Variable", 
      ylab = "Relative Frequency", 
      col = "#FFFB12")
